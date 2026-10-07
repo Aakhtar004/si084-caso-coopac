@@ -1,0 +1,2 @@
+NAME      IMAGE         COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+sr_bd     postgres:16   "docker-entrypoint.s…"   bd        34 seconds ago   Up 33 seconds (healthy)   0.0.0.0:55432->5432/tcp, [::]:55432->5432/tcp

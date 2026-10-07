@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ docker exec sr_bd psql -U postgres -d core -c '\\du'\n+ tee evidencias/P3_roles.txt\n                              List of roles\n Role name  |                         Attributes                         \n------------+------------------------------------------------------------\n app_core   | Superuser\n ex_soporte | \n postgres   | Superuser, Create role, Create DB, Replication, Bypass RLS\n reportes   | \n\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:25:50.836942-05:00"
+}

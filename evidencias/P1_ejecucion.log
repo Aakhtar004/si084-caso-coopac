@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ docker compose ps\n+ tee evidencias/P1_puertos.txt\nNAME      IMAGE         COMMAND                  SERVICE   CREATED          STATUS                    PORTS\nsr_bd     postgres:16   \"docker-entrypoint.s…\"   bd        34 seconds ago   Up 33 seconds (healthy)   0.0.0.0:55432->5432/tcp, [::]:55432->5432/tcp\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:25:10.007077-05:00"
+}

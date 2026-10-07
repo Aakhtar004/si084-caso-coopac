@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ docker exec sr_bd psql -U postgres -d core -c 'SHOW log_connections' -c 'SHOW log_statement'\n+ tee evidencias/P6_registro.txt\n log_connections \n-----------------\n off\n(1 row)\n\n log_statement \n---------------\n none\n(1 row)\n\n+ grep -n command: docker-compose.yml\n11:    command: postgres -c log_connections=off -c log_statement=none\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:28:25.739409-05:00"
+}

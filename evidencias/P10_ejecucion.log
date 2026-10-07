@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ docker compose down -v\n Container sr_bd  Stopping\n Container sr_bd  Stopped\n Container sr_bd  Removing\n Container sr_bd  Removed\n Network coopac-core_default  Removing\n Network coopac-core_default  Removed\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:36:45.236370-05:00"
+}

@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ grep -n PASSWORD docker-compose.yml\n+ tee evidencias/P2_credenciales.txt\n10:      POSTGRES_PASSWORD: coopac2023\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:25:28.480460-05:00"
+}

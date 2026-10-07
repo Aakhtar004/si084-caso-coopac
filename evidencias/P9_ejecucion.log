@@ -1,0 +1,5 @@
+{
+  "output": "+ set -euo pipefail\n+ export MSYS_NO_PATHCONV=1\n+ MSYS_NO_PATHCONV=1\n+ case \"${1:-}\" in\n+ sha256sum evidencias/P1_puertos.txt evidencias/P2_credenciales.txt evidencias/P3_roles.txt evidencias/P4_cesados.txt evidencias/P4_genericas.txt evidencias/P5_segregacion.txt evidencias/P6_registro.txt evidencias/P7_respaldos.txt evidencias/P7_restauracion.txt evidencias/P8_validacion.txt\n+ sha256sum -c evidencias/SHA256SUMS.txt\nevidencias/P1_puertos.txt: OK\nevidencias/P2_credenciales.txt: OK\nevidencias/P3_roles.txt: OK\nevidencias/P4_cesados.txt: OK\nevidencias/P4_genericas.txt: OK\nevidencias/P5_segregacion.txt: OK\nevidencias/P6_registro.txt: OK\nevidencias/P7_respaldos.txt: OK\nevidencias/P7_restauracion.txt: OK\nevidencias/P8_validacion.txt: OK\n",
+  "returncode": 0,
+  "time": "2026-10-07T16:32:11.519198-05:00"
+}

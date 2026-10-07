@@ -1,0 +1,28 @@
+ cuentas_activas_cesados | personas | cese_mas_antiguo 
+-------------------------+----------+------------------
+                      16 |       10 | 2015-12-18
+(1 row)
+
+ sin_documento | administradores 
+---------------+-----------------
+            22 |               4
+(1 row)
+
+ dias_sin_respaldo 
+-------------------
+                47
+(1 row)
+
+ desembolsos_core | monto_total_core 
+------------------+------------------
+             4812 |      45124350.88
+(1 row)
+
+            List of relations
+ Schema |    Name     | Type  |  Owner   
+--------+-------------+-------+----------
+ public | desembolsos | table | postgres
+ public | empleados   | table | postgres
+ public | usuarios    | table | postgres
+(3 rows)
+
